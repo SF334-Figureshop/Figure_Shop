@@ -7,7 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependency directories
+node_modules/
+
+# Build artifacts
 dist
 dist-ssr
 *.local
@@ -22,3 +25,24 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Misc
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache and temporary files
+.cache
+.parcel-cache
+.temp
+.tmp
+.npmrc
+
+# MUI-related files
+.mui
+.next
+
+# TypeScript-related files
+*.tsbuildinfo
